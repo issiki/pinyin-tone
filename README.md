@@ -1,6 +1,8 @@
 # pinyin-tone
 Another wheel that converts "Hanyu pinyin tone numbers" to "tone marks".
 
+I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
+
 ## Setup
 ```bash
 $ npm install pinyin-tone
@@ -17,7 +19,7 @@ console.log(megurine_luka); // ---> 'xún yīn liú gē'
 
 ## Changelog
 
-see [changelog here](https://github.com/issiki/pinyin-tone-marks/).
+see [changelog here](https://github.com/issiki/pinyin-tone-marks/blob/master/CHANGELOG.md).
 
 ## Tests
 
