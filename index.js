@@ -1,6 +1,6 @@
 'use strict';
 // ^(声母?) + (韵母) + (儿化音?) + (声调?)$
-const CONSONANT_VOWEL_ER_TONE = /^([bpmfdtnlgkjqxzcsr]?h?)(iong|ong|ueng|ing|eng|uang|iang|ang|un|in|en|vuan|uan|ian|an|iu|ou|iao|ao|uei|ei|uai|ai|ue|ve|ie|e|uo|o|ua|ia|a|v|u|i)(r?)([1234]?)$/;
+const CONSONANT_VOWEL_ER_TONE = /^([bpmfdtnlgkjqxzcsrwy]?h?)(iong|ong|ueng|ing|eng|uang|iang|ang|un|in|en|vuan|uan|ian|an|iu|ou|iao|ao|uei|ei|uai|ai|ue|ve|ie|e|uo|o|ua|ia|a|v|u|i)(r?)([1234]?)$/;
 // āáǎà ōóǒò ê ēéěè īíǐì ūúǔù ǖǘǚǜü
 const VOWEL_TONE_MARKS = {
     i: ['ī', 'í', 'ǐ', 'ì'], // i
