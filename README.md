@@ -1,7 +1,7 @@
 # pinyin-tone
 Another wheel that converts "Hanyu pinyin tone numbers" to "tone marks".
 
-I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
+I assume you already know what [<ruby><rb>拼音</rb><rp>(</rp><rt>Pinyin</rt><rp>)</rp><ruby>](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
 
 ## Setup
 
