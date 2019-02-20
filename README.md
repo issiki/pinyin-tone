@@ -29,7 +29,7 @@ there is no tests yet.
 
 ## Issues
 
-submit [bugs here](https://github.com/issiki/pinyin-tone-marks/issues). Thank you!
+submit [issues or bugs here](https://github.com/issiki/pinyin-tone-marks/issues). Thank you!
 
 ## License
 MIT ©[Futaba Isshiki](https://futaba.love)
