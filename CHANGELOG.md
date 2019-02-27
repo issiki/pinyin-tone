@@ -1,15 +1,29 @@
-# <ruby><rb>更新日志</rb><rp>(</rp><rt>Changelog</rt><rp>)</rp></ruby>
+# Changelog
+
+更新日志
+
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [如何维护更新日志](https://keepachangelog.com/zh-CN/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
-## <ruby><rb>【即将发布】</rb><rp>(</rp><rt>[Unreleased]</rt><rp>)</rp></ruby>
+## [Unreleased]
+
+【即将发布】
+
+## [0.1.4] - 2019-02-27
+### Fixed
+- update README.md. correct spellings.
+- 更新README.md。修正拼写。
+- add description in Simplified Chinese.
+- 增加简体中文描述。
 
 ## [0.1.3] - 2019-02-20
 ### Fixed
 - update README.md. correct spellings and urls.
+- 更新README.md。修正拼写和链接。
 
 ## [0.1.1] - 2019-02-18
 ### Fixed
 - missing `y` and `w`.
+- 缺少`y`和`w`
