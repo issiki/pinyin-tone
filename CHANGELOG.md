@@ -1,10 +1,10 @@
-# Changelog
+# <ruby><rb>更新日志</rb><rp>(</rp><rt>Changelog</rt><rp>)</rp></ruby>
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)/[如何维护更新日志](https://keepachangelog.com/zh-CN/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) | [如何维护更新日志](https://keepachangelog.com/zh-CN/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
-## [Unreleased]
+## <ruby><rb>【即将发布】</rb><rp>(</rp><rt>[Unreleased]</rt><rp>)</rp></ruby>
 
 ## [0.1.3] - 2019-02-20
 ### Fixed

@@ -3,7 +3,7 @@
 * Another wheel that converts "Hanyu pinyin tone numbers" to "tone marks".
 * 又一个把“汉语拼音声调数字”转换成“声调符号”的轮子。
 
-* I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
+I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
 * 假设您已经知道什么是[拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin)、知道如何写正确的拼音。
 
 ## Setup
