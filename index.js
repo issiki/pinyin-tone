@@ -1,43 +1,43 @@
 'use strict';
 // ^(声母?) + (韵母) + (儿化音?) + (声调?)$
-const CONSONANT_VOWEL_ER_TONE = /^([bpmfdtnlgkjqxzcsrwy]?h?)(iong|ong|ueng|ing|eng|uang|iang|ang|un|in|en|vuan|uan|ian|an|iu|ou|iao|ao|uei|ei|uai|ai|ue|ve|ie|e|uo|o|ua|ia|a|v|u|i)(r?)([1234]?)$/;
+const CONSONANT_VOWEL_ER_TONE = /^([bpmfdtnlgkjqxzcsrwy]?h?)(iong|ong|ueng|ing|eng|uang|iang|ang|un|ün|in|en|vuan|üan|uan|ian|an|iu|ou|iao|ao|uei|ei|uai|ai|ue|üe|ve|ie|e|uo|o|ua|ia|a|v|ü|u|i)(r?)([01234]?)$/;
 // āáǎà ōóǒò ê ēéěè īíǐì ūúǔù ǖǘǚǜü
 const VOWEL_TONE_MARKS = {
-    i: ['ī', 'í', 'ǐ', 'ì'], // i
-    u: ['ū', 'ú', 'ǔ', 'ù'], // u
-    ü: ['ǖ', 'ǘ', 'ǚ', 'ǜ'], // ü
-    a: ['ā', 'á', 'ǎ', 'à'], // a
-    ia: ['iā', 'iá', 'iǎ', 'ià'],
-    ua: ['uā', 'uá', 'uǎ', 'uà'],
-    o: ['ō', 'ó', 'ǒ', 'ò'], // o
-    uo: ['uō', 'uó', 'uǒ', 'uò'],
-    e: ['ē', 'é', 'ě', 'è'], // e
-    ie: ['iē', 'ié', 'iě', 'iè'],
-    üe: ['üē', 'üé', 'üě', 'üè'],
-    ai: ['āi', 'ái', 'ǎi', 'ài'],
-    uai: ['uāi', 'uái', 'uǎi', 'uài'],
-    ei: ['ēi', 'éi', 'ěi', 'èi'],
-    uei: ['uēi', 'uéi', 'uěi', 'uèi'],
-    ao: ['āo', 'áo', 'ǎo', 'ào'],
-    iao: ['iāo', 'iáo', 'iǎo', 'iào'],
-    ou: ['ōu', 'óu', 'ǒu', 'òu'],
-    iu: ['iū', 'iú', 'iǔ', 'iù'],
-    an: ['ān', 'án', 'ǎn', 'àn'],
-    ian: ['iān', 'ián', 'iǎn', 'iàn'],
-    uan: ['uān', 'uán', 'uǎn', 'uàn'],
-    üan: ['üān', 'üán', 'üǎn', 'üàn'],
-    en: ['ēn', 'én', 'ěn', 'èn'],
-    in: ['īn', 'ín', 'ǐn', 'ìn'],
-    un: ['ūn', 'ún', 'ǔn', 'ùn'],
-    ün: ['ǖn', 'ǘn', 'ǚn', 'ǜn'],
-    ang: ['āng', 'áng', 'ǎng', 'àng'],
-    iang: ['iāng', 'iáng', 'iǎng', 'iàng'],
-    uang: ['uāng', 'uáng', 'uǎng', 'uàng'],
-    eng: ['ēng', 'éng', 'ěng', 'èng'],
-    ing: ['īng', 'íng', 'ǐng', 'ìng'],
-    ueng: ['uēng', 'uéng', 'uěng', 'uèng'],
-    ong: ['ōng', 'óng', 'ǒng', 'òng'],
-    iong: ['iōng', 'ióng', 'iǒng', 'iòng'],
+    i: ['i','ī', 'í', 'ǐ', 'ì'], // i
+    u: ['u','ū', 'ú', 'ǔ', 'ù'], // u
+    ü: ['ü','ǖ', 'ǘ', 'ǚ', 'ǜ'], // ü
+    a: ['a','ā', 'á', 'ǎ', 'à'], // a
+    ia: ['ia','iā', 'iá', 'iǎ', 'ià'],
+    ua: ['ua','uā', 'uá', 'uǎ', 'uà'],
+    o: ['o','ō', 'ó', 'ǒ', 'ò'], // o
+    uo: ['uo','uō', 'uó', 'uǒ', 'uò'],
+    e: ['e','ē', 'é', 'ě', 'è'], // e
+    ie: ['ie','iē', 'ié', 'iě', 'iè'],
+    üe: ['üe','üē', 'üé', 'üě', 'üè'],
+    ai: ['ai','āi', 'ái', 'ǎi', 'ài'],
+    uai: ['uai','uāi', 'uái', 'uǎi', 'uài'],
+    ei: ['ei','ēi', 'éi', 'ěi', 'èi'],
+    uei: ['uei','uēi', 'uéi', 'uěi', 'uèi'],
+    ao: ['ao','āo', 'áo', 'ǎo', 'ào'],
+    iao: ['iao','iāo', 'iáo', 'iǎo', 'iào'],
+    ou: ['ou','ōu', 'óu', 'ǒu', 'òu'],
+    iu: ['iu','iū', 'iú', 'iǔ', 'iù'],
+    an: ['an','ān', 'án', 'ǎn', 'àn'],
+    ian: ['ian','iān', 'ián', 'iǎn', 'iàn'],
+    uan: ['uan','uān', 'uán', 'uǎn', 'uàn'],
+    üan: ['üan','üān', 'üán', 'üǎn', 'üàn'],
+    en: ['en','ēn', 'én', 'ěn', 'èn'],
+    in: ['in','īn', 'ín', 'ǐn', 'ìn'],
+    un: ['un','ūn', 'ún', 'ǔn', 'ùn'],
+    ün: ['ün','ǖn', 'ǘn', 'ǚn', 'ǜn'],
+    ang: ['ang','āng', 'áng', 'ǎng', 'àng'],
+    iang: ['iang','iāng', 'iáng', 'iǎng', 'iàng'],
+    uang: ['uang','uāng', 'uáng', 'uǎng', 'uàng'],
+    eng: ['eng','ēng', 'éng', 'ěng', 'èng'],
+    ing: ['ing','īng', 'íng', 'ǐng', 'ìng'],
+    ueng: ['ueng','uēng', 'uéng', 'uěng', 'uèng'],
+    ong: ['ong','ōng', 'óng', 'ǒng', 'òng'],
+    iong: ['iong','iōng', 'ióng', 'iǒng', 'iòng'],
 };
 
 /**
@@ -65,11 +65,12 @@ function Pinyin(args) {
         const tone_number = exec_array[4]; // 声调
 
         let tone = vowel;
-        // jqx + ü
+        // jqx + v ---> jqx + ü
         switch (consonant) {
             case 'j':
             case 'q':
             case 'x':
+                tone = tone.replace(/^v(.*)$/, 'u$1');
                 break;
             default:
                 tone = tone.replace(/^v(.*)$/, 'ü$1');
@@ -77,17 +78,20 @@ function Pinyin(args) {
         }
         //标记声调(mark the tone)
         switch (tone_number) {
-            case '1':
-                tone = VOWEL_TONE_MARKS[tone][0];
+            case '0':
+                tone=VOWEL_TONE_MARKS[tone][0];
                 break;
-            case '2':
+            case '1':
                 tone = VOWEL_TONE_MARKS[tone][1];
                 break;
-            case '3':
+            case '2':
                 tone = VOWEL_TONE_MARKS[tone][2];
                 break;
-            case '4':
+            case '3':
                 tone = VOWEL_TONE_MARKS[tone][3];
+                break;
+            case '4':
+                tone = VOWEL_TONE_MARKS[tone][4];
                 break;
             default:
                 break;

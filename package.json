@@ -4,7 +4,7 @@
   "description": "Another wheel that converts pinyin tone numbers to pinyin marks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "pinyin",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/issiki/pinyin-tone-marks",
   "bugs": {
     "url": "https://github.com/issiki/pinyin-tone-marks/issues"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
   }
 }

@@ -9,7 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-【即将发布】
+### Changed
+- more tests.
+- 更多的测试。
+
+## [1.1.0] - 2019-03-05
+### Changed
+- add vowels `ü`/`ün`/`üe`/`üan` for mocha test.
+- 为mocha测试增加了`ü`/`ün`/`üe`/`üan`。
+- tone number allows `0` now.
+- 声调数字可以为`0`了。
+
+### Added
+- add mocha test.
+- 增加了mocha测试。
+
+## [1.0.0] - 2019-03-05
+### Changed
+- repository changed.
+- update README.md
 
 ## [0.1.4] - 2019-02-27
 ### Fixed
