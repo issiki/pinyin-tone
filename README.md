@@ -6,18 +6,19 @@
 * I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
 * 假设您已经知道什么是[拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin)、知道如何写正确的拼音。
 
-- I would be very grateful if you could [tell me that this plugin is useful👍](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=leave-a-message-for-futaba-isshiki.md&title=%F0%9F%91%8D).
+* I would be very grateful if you could [tell me that this plugin is useful👍](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=leave-a-message-for-futaba-isshiki.md&title=%F0%9F%91%8D).
 
-- 留言[👍鼓励作者](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=leave-a-message-for-futaba-isshiki.md&title=%F0%9F%91%8D)。
+* 留言[👍鼓励作者](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=MESSAGE.md&title=%F0%9F%91%8D)。
 
 ## Setup
+
 [![NPM](https://nodei.co/npm/pinyin-tone.png)](https://nodei.co/npm/pinyin-tone/)
 
 * via npm:
 * 通过NPM安装：
 
 ```bash
-$ npm install pinyin-tone
+npm install pinyin-tone
 ```
 
 ## Usage

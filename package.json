@@ -27,6 +27,6 @@
     "url": "https://github.com/issiki/pinyin-tone-marks/issues"
   },
   "devDependencies": {
-    "mocha": "^7.0.0"
+    "mocha": "^7.1.1"
   }
 }
