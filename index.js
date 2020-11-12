@@ -113,6 +113,9 @@ function Pinyin(args) {
             case "e^":
                 return "ê";
 
+            case "ng":
+                return "ng";
+
             // 仅有\声母/
             case "b":
             case "p":

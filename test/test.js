@@ -143,6 +143,34 @@ describe("Test 声母", () => {
   });
 });
 
+describe("Test ng", () => {
+  const input = "ng";
+  const result = "ng";
+  it(`${input} ==> ${result}`, () => {
+    expect(f(input)).to.be.equal(result);
+  });
+});
+
+describe("Test e5|e^", () => {
+  {
+    const input = "e5";
+    const result = "ê";
+
+    it(`${input} ==> ${result}`, () => {
+      expect(f(input)).to.be.equal(result);
+    });
+  }
+
+  {
+    const input = "e^";
+    const result = "ê";
+
+    it(`${input} ==> ${result}`, () => {
+      expect(f(input)).to.be.equal(result);
+    });
+  }
+});
+
 describe("Test 韵母", () => {
   test韵母("a", _a);
   test韵母("o", _o);
@@ -359,7 +387,7 @@ describe("Test 声母+韵母", () => {
           break;
 
         case "iou": // should be \iu/
-        //uūúǔù
+          //uūúǔù
           {
             const input = `${_声母}iou ${_声母}iou1 ${_声母}iou2 ${_声母}iou3 ${_声母}iou4`;
 
