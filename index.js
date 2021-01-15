@@ -1,5 +1,5 @@
 'use strict';
-const assert = require("assert");
+// const assert = require("assert");
 
 // 汉语拼音方案
 // http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/195802/t19580201_186000.html
@@ -251,7 +251,7 @@ function Pinyin(args) {
  * @param {string[]} _韵母 
  */
 function alter(_儿化音和声调, _韵母) {
-    assert.strictEqual(_韵母.length, 5);
+    // assert.strictEqual(_韵母.length, 5);
 
     switch (_儿化音和声调) {
         // 轻声=""|0
