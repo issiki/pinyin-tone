@@ -8,6 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
+## [2.0.4] 2021-03-30
+
+### Fixed
+* Upgrade `y18n` to v4.0.1 because the npm package `y18n` before version 3.2.2, 4.0.1, and 5.0.5 is vulnerable to Prototype Pollution.
+* 将`y18n`升级到v4.0.1因为3.2.2、4.0.1和5.0.5之前的版本易受原型污染。
+
+### Upgrade
+* Upgrade `chai` to v4.3.4.
+* 将`chai`升级到v4.3.4。
+
+###
+
 ## [2.0.0] 2020-11-11
 
 ### Changed
