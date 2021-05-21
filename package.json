@@ -1,6 +1,6 @@
 {
   "name": "pinyin-tone",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Another wheel that converts pinyin tone numbers to pinyin marks.",
   "main": "index.js",
   "scripts": {
