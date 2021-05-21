@@ -6,10 +6,6 @@
 * I assume you already know what [拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin) is and how to write correct pinyin.
 * 假设您已经知道什么是[拼音(Pinyin)](https://en.wikipedia.org/wiki/Pinyin)、知道如何写正确的拼音。
 
-* I would be very grateful if you could [tell me that this plugin is useful👍](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=leave-a-message-for-futaba-isshiki.md&title=%F0%9F%91%8D).
-
-* 留言[👍鼓励作者](https://github.com/issiki/pinyin-tone/issues/new?assignees=issiki&labels=good+first+issue&template=MESSAGE.md&title=%F0%9F%91%8D)。
-
 ## Setup
 
 [![NPM](https://nodei.co/npm/pinyin-tone.png)](https://nodei.co/npm/pinyin-tone/)
@@ -51,29 +47,13 @@ var fantastic = pinyin("bong1 tv2 pe3 wir4"); // ---> 'bōng tǘ pě wìr'
 
 ## Changelog
 
-## [2.0.0] 2020-11-11
-
-### Changed
-
-* Rewrite main code.
-* 重写了主要代码
-* Rewrite test.
-* 重写了测试。
-
-### Fixed
-
-* Add /`ui`/.
-* 补上了/`ui`/。
-
-* see [changelog here](https://github.com/issiki/pinyin-tone/blob/master/CHANGELOG.md).
-* 更新日志[在这里看](https://github.com/issiki/pinyin-tone/blob/master/CHANGELOG.md)。
+* 更新日志 see [changelog here](https://github.com/issiki/pinyin-tone/blob/master/CHANGELOG.md).
 
 ## Tests
 
 see `test/test.js`.
 
-* Rewrite tests. 2020-11-11
-* 重写了测试。2020-11-11
+* 重写了测试 Rewrite tests. 2020-11-11
 
 ## Issues
 
