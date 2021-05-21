@@ -20,11 +20,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/issiki/pinyin-tone-marks"
+    "url": "https://github.com/issiki/pinyin-tone"
   },
-  "homepage": "https://github.com/issiki/pinyin-tone-marks",
+  "homepage": "https://github.com/issiki/pinyin-tone",
   "bugs": {
-    "url": "https://github.com/issiki/pinyin-tone-marks/issues"
+    "url": "https://github.com/issiki/pinyin-tone/issues"
   },
   "devDependencies": {
     "chai": "^4.3.4",
