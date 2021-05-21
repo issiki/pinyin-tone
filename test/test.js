@@ -1,5 +1,5 @@
 'use strict';
-const { expect, assert } = require('chai');
+const { expect } = require('chai');
 const f = require('../index');
 
 const r = "r";
@@ -103,9 +103,9 @@ const _韵母表 = {
 // const _韵母表expect = [].concat(_a, _o, _e, _ai, _ei, _ao, _ou, _an, _en, _ang, _eng, _ong, _i, _ia, _ie, _iao, _iou, _iu, _ian, _in, _iang, _ing, _iong, _ui, _u, _ua, _uo, _uai, _uei, _uan, _uen, _un, _uang, _ueng, _v, _ve, _van, _vn);
 
 /**
- * 
- * @param {string} a 
- * @param {string|string[]} exp 
+ *
+ * @param {string} a
+ * @param {string|string[]} exp
  */
 function test韵母(a, exp) {
   // 参数转换为字符串，用于比较

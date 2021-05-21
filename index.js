@@ -246,9 +246,9 @@ function Pinyin(args) {
 }
 
 /**
- * 
- * @param {string} _儿化音和声调 
- * @param {string[]} _韵母 
+ *
+ * @param {string} _儿化音和声调
+ * @param {string[]} _韵母
  */
 function alter(_儿化音和声调, _韵母) {
     // assert.strictEqual(_韵母.length, 5);
