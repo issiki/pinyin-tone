@@ -66,6 +66,6 @@ see `test/test.js`.
 
 ## About 汉语拼音方案(hàn yǔ pīn yīn fāng àn)
 
-You can find [汉语拼音方案.pdf] from this link: <http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/195802/t19580201_186000.html>
+You can find [汉语拼音方案.pdf] from <http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/195802/t19580201_186000.html>
 
 [汉语拼音方案.pdf]:http://www.moe.gov.cn/ewebeditor/uploadfile/2015/03/02/20150302165814246.pdf

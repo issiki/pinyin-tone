@@ -8,13 +8,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
-## [2.0.6] 2020-05-21
+
+## [2.0.7] 2021-08-13
+
+### Patched
+
+* `node_modules/glob-parent` 5.1.1 -> 5.1.2
+
+```
+glob-parent  <5.1.2
+Severity: moderate
+Regular expression denial of service - https://npmjs.com/advisories/1751
+```
+
+## [2.0.6] 2021-05-21
 
 ### Added
 
-* `index.d.ts`
+* `index.d.ts`: built-in TypeScript declaration.
 
-### Fixed
+### Patched
 
 * `node_modules/lodash`: `4.17.20` -> `4.17.21`
 * repository url in `package.json`.
