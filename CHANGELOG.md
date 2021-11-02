@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
+## [2.1.0] 2021-11-02
+
+* add support for tone mark 5.
+* update devDependencies: `mocha` ^7.2.0 ->^9.1.3
 
 ## [2.0.7] 2021-08-13
 
