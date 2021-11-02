@@ -5,7 +5,7 @@
 // http://www.moe.gov.cn/jyb_sjzl/ziliao/A19/195802/t19580201_186000.html
 // http://www.moe.gov.cn/ewebeditor/uploadfile/2015/03/02/20150302165814246.pdf
 
-const regexp_Pinyin = /^(er[0-4]?|e[5^]|([zcs]h?|[bpmfdtnlgkhjqxywr])?(i[ao]ng|u[ae]ng|[aeo]ng|ia[on]|iou|ing|u[ae][in]|van|a[ion]?|ou?|e[in]?|i[aeun]?|u[aoein]?|v[en]?)(r[0-4]|[r0-4])?|ng|[zcs]h?|[bpmfdtnlgkhjqxywr])$/;
+const regexp_Pinyin = /^(er[0-5]?|e[^0-5]|([zcs]h?|[bpmfdtnlgkhjqxywr])?(i[ao]ng|u[ae]ng|[aeo]ng|ia[on]|iou|ing|u[ae][in]|van|a[ion]?|ou?|e[in]?|i[aeun]?|u[aoein]?|v[en]?)(r[0-5]|[r0-5])?|ng|[zcs]h?|[bpmfdtnlgkhjqxywr])$/;
 
 const _韵母表 = {
     a: ['a', 'ā', 'á', 'ǎ', 'à'], // a
@@ -94,6 +94,7 @@ function Pinyin(args) {
             // \er/
             case "er":
             case "er0":
+            case "er5":
                 return "er";
 
             case "er1":
@@ -109,7 +110,7 @@ function Pinyin(args) {
                 return "èr"
 
             // \/
-            case "e5":
+            // case "e5":
             case "e^":
                 return "ê";
 
@@ -161,9 +162,12 @@ function Pinyin(args) {
                 // 0=无声调、轻声
                 case "":
                 case "0":
+                case "5":
                     return _韵母表[_韵母][0];
 
                 case "r":
+                case "5r":
+                case "r5":
                     return _韵母表[_韵母][0] + r;
 
                 // 1=阴平
@@ -257,11 +261,14 @@ function alter(_儿化音和声调, _韵母) {
         // 轻声=""|0
         case "":
         case "0":
+        case "5":
             return _韵母[0];
 
         case "r":
         case "r0":
         case "0r":
+        case "r5":
+        case "5r":
             return _韵母[0] + r;
 
         case "1":
