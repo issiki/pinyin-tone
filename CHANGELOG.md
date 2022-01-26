@@ -8,6 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html) | [语义化版本](https://semver.org/lang/zh-CN/).
 
+## [2.1.2] 2022-01-26
+
+### Patched
+
+* bump `nanoid` from `3.1.25` to `3.2.0`
+```
+nanoid  <3.1.31
+Severity: moderate
+Exposure of Sensitive Information to an Unauthorized Actor in nanoid - https://github.com/advisories/GHSA-qrpm-p2h7-hrv2
+```
+
 ## [2.1.0] 2021-11-02
 
 * add support for tone mark 5.
