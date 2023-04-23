@@ -17,32 +17,43 @@
 npm install pinyin-tone
 ```
 
-## Usage
+## Usage (default)
 
 ```javascript
 // this module exports a function, name it as `pinyin` or what you like.
-var pinyin = require('pinyin-tone');
+var pinyin_v1 = require('pinyin-tone');
 
 // call the function
-var hatsune_miku = pinyin('chu1 yin1 wei4 lai2'); // ---> 'chū yīn wèi lái'
-var megurine_luka = pinyin("xun2 yin1 liu2 ge1"); // ---> 'xún yīn liú gē'
-var han = pinyin("han4 yu3 pin1 yin1 fang1 an4"); // ---> 'hàn yǔ pīn yīn fāng àn'
+var hatsune_miku = pinyin_v1('chu1 yin1 wei4 lai2'); // ---> 'chū yīn wèi lái'
+var megurine_luka = pinyin_v1("xun2 yin1 liu2 ge1"); // ---> 'xún yīn liú gē'
+var han = pinyin_v1("han4 yu3 pin1 yin1 fang1 an4"); // ---> 'hàn yǔ pīn yīn fāng àn'
 
 // 儿化音(ér huà yīn)
-var huar = pinyin("huar1 renr2 shuir3 yuer4"); // ---> 'huār rénr shuǐr yuèr'
+var huar = pinyin_v1("huar1 renr2 shuir3 yuer4"); // ---> 'huār rénr shuǐr yuèr'
 
 // 声母(shēng mǔ)
-var bpmf = pinyin("b p m f"); // ---> 'b p m f'
+var bpmf = pinyin_v1("b p m f"); // ---> 'b p m f'
 
 // 韵母(yùn mǔ)
-var yun = pinyin("an1 vn2 ong3 uen4"); // ---> 'ān ǘn ǒng uèn'
+var yun = pinyin_v1("an1 vn2 ong3 uen4"); // ---> 'ān ǘn ǒng uèn'
 
 // special
-var liuyun = pinyin("liou2 yuen2"); // ---> 'liú yún' // use in reality
-var iou_uen = pinyin("iou1 uen4"); // ---> 'iōu uèn' // only yùn mǔ
+var liuyun = pinyin_v1("liou2 yuen2"); // ---> 'liú yún' // use in reality
+var iou_uen = pinyin_v1("iou1 uen4"); // ---> 'iōu uèn' // only yùn mǔ
 
 // or some pinyin that not used in reality.
-var fantastic = pinyin("bong1 tv2 pe3 wir4"); // ---> 'bōng tǘ pě wìr'
+var fantastic = pinyin_v1("bong1 tv2 pe3 wir4"); // ---> 'bōng tǘ pě wìr'
+```
+
+## Usage v2 (exprimental)
+
+As a result, there is ONE difference between `v1` and `v2`. `v2` does NOT support 儿化音 like `hua1r` (format: `pinyin-number-r`), it only supports the format `pinyin-r-number` like `huar1`.
+
+```javascript
+var pinyin_v2 = require('pinyin-tone/v2');
+
+console.log(pinyin_v2('qi3 lai2 bu2 yuan4 zuo4 nu2 li4 de ren2 men')); // --> 'qǐ lái bú yuàn zuò nú lì de rén men'
+console.log(pinyin_v2('huar1 wei4 shen2 me zhe4 yang4 hong2')); // --> 'huār wèi shén me zhè yàng hóng'
 ```
 
 ## Changelog
