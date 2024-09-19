@@ -73,7 +73,7 @@ see `test/test.js`.
 
 ## License
 
-* MIT ©[Futaba Isshiki](https://futaba.love "一色双叶的笔记")
+* MIT
 
 ## About 汉语拼音方案(hàn yǔ pīn yīn fāng àn)
 
