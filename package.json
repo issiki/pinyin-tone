@@ -1,6 +1,6 @@
 {
   "name": "pinyin-tone",
-  "version": "2.2.0",
+  "version": "2.2.4",
   "description": "Another wheel that converts pinyin tone numbers to pinyin marks.",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/issiki/pinyin-tone"
+    "url": "git+https://github.com/issiki/pinyin-tone.git"
   },
   "homepage": "https://github.com/issiki/pinyin-tone",
   "bugs": {
